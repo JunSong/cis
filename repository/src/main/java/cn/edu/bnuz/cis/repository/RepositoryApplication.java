@@ -15,7 +15,7 @@ import org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguratio
 @EnableJpaRepositories
 @Import(RepositoryRestMvcConfiguration.class)
 @EnableAutoConfiguration
-@EntityScan(basePackages = {"cn.edu.bnuz.cis.domain"})
+@EntityScan(basePackages = {"cn.edu.bnuz.cis.repository"})
 public class RepositoryApplication {
 
     public static void main(String[] args) {
